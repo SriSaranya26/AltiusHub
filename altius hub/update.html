@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    margin-left: 25%;
+    display: block;
+}
+    </style>
+    <script>
+        function complete()
+        {
+            alert("updated successfully")
+        }
+    </script>
+</head>
+<body>
+    <h1>Update </h1>
+    <h4>Enter details to be updated </h4>
+
+    <form action="" onsubmit="return complete()">
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="fname" required ><br><br><br>
+    
+        <label for="lname">Last Name</label><br>
+        <input type="text" name="lname" id="lname" required><br><br><br>
+    
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" required><br><br><br>
+    
+        <label for="dob">Date Of Birth</label><br>
+        <input type="date" name="dob" id="dob"><br><br>
+        
+        Update image<br>
+        <input type="file" name="image" id="image"><br><br>
+    
+        <input type="submit" value="submit"><br><br>
+    
+    </form>
+</body>
+</html>
